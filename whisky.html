@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whisky Landing</title>
+    <link rel="stylesheet" href="./css/general.css">
+    <link rel="stylesheet" href="style/general.css">
+</head>
+<body>
+    <main>
+        <h1>Whisky Landing</h1>
+        <h2>Nada melhor do que uma boa dose de Whisky</h2>
+        <p>Bem-vindo à experiência definitiva no mundo do whisky. Em nosso rincón exclusivo, convidamos a sumergir com a riqueza e a tradição desta bebida emblemática. Aqui, cada gota é um tributo à força artesanal e à paixão que perdurou ao longo dos séculos.</p>
+        <p>Cada gole de whisky é uma viagem sensorial única. Explore a diversidade de sabores que o whisky oferece, desde os sutis e frutados até os robustos e defumados. Saiba como os ingredientes, o processo de envelhecimento e a habilidade do mestre destilador contribuem para a ampla gama de aromas e paladares que você pode experimentar.</p>
+        <form name="coffee-order">
+            <label for="qtd">Nome</label>
+            <input type="text" placeholder="teu nome" nome="name">
+
+            <label for="qtd">Qual whisky voçe quer</label>
+            <select name="whisky-type">
+                <option>Escolha o whisky</option>
+                <option>Red label</option>
+                <option>Double Black</option>
+                <option>Jack Daniel's</option>
+                <option>Black Label</option>
+                <option>Royal Salute</option>
+                <option>Blue Label</option>
+                <option>Gold Label</option>
+                <option>Ballantine's</option>
+                <option>White Horse</option>
+            </select>
+
+            <label for="qtd">Quantas Garafas?</label>
+            <input type="number" name="qtd" min="1" value="1" id="qtd">
+
+            <button>Confirma o pedido</button>
+        </form>
+    </main>
+    <script src="./js/script.js"></script>
+</body>
+</html>
